@@ -1,6 +1,6 @@
 const fs = require('fs');
 const xml = require('xml');
-const ROOT_URL = 'https://marketinsights.citi.com/';
+const ROOT_URL = 'http://adamhaley.com';
 
 
 function buildFeed(
