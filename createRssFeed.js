@@ -77,19 +77,19 @@ function buildFeed(
               {
                 "atom:link": {
                   _attr: {
-                    href: "http://Marketinsights.citi.com/feed.rss",
+                    href: "http://adamhaley.com/",
                     rel: "self",
                     type: "application/rss+xml",
                   },
                 },
               },
               {
-                title: "Citi Personal Wealth Management",
+                title: "Adam Haley",
               },
               {
-                link: "http://Marketinsights.citi.com/",
+                link: "http://adamhaley.com/",
               },
-              { description: "Market Insights RSS Feed" },
+              { description: "RSS Feed" },
               { language: "en-US" },
               ...buildFeed(posts),
             ],
